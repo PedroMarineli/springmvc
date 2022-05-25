@@ -1,2 +1,2 @@
-rootProject.name = ''
-include ('')
+rootProject.name = 'springmvc'
+include ('springmvc')

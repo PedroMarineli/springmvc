@@ -1,13 +1,19 @@
 <?php
 
 $notas = array(
-    'julia' => 8,
-    'pedro' => 10,
-    'joao' => 4,
-    'fernando' => 6
+    6,
+    4,
+    6,
+    9
  );
 
- sort($notas);
- var_dump($notas);
+ $soma = $notas[0] + $notas[1] + $notas[2] + $notas[3];
+ $soma = $soma/4;
+
+if ($soma>6) {
+    echo "Parabéns você passou :)";
+}else {
+    echo "Que pena, você não passou :(";
+};
 
  ?>
